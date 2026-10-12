@@ -13,6 +13,8 @@ library(terra) # To work with rasters
 library(tidyverse) # Data carpentry and ggplot2
 ```
 
+## Retrieve elevation data and process
+
 Package {elevatr} can be used to get elevation data:
 ```{r}
 
@@ -31,6 +33,9 @@ fuji <- as.data.frame(fuji,
                       xy = TRUE) %>%
   rename(elev = 3)
 ```
+
+
+## Plot contours
 
 Plot contours; use `Hiroshige` palette from [{MetBrewer}](https://github.com/BlakeRMills/MetBrewer):
 ```{r}
