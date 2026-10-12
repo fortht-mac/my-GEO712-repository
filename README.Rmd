@@ -86,4 +86,3 @@ favoritenumber <- 4
 powers <- favoritenumber^(1:5)
 print(powers)
 ```
-
