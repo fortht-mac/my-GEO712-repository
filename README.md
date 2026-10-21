@@ -7,8 +7,8 @@ Fall 2026
 
 # Welcome to my GEO712 Repository!
 
-The goal of my-GEO712-repository is to practice using GitHub, as part of
-my course: [Reproducible Research
+The goal of this repository is to practice using GitHub, as part of my
+course: [Reproducible Research
 Workflow](https://github.com/paezha/Reproducible-Research-Workflow/).
 
 ------------------------------------------------------------------------
@@ -76,7 +76,9 @@ infrared reflectance, and *SWIR* is shortwave infrared reflectance.
 
 ------------------------------------------------------------------------
 
-# A Sample Chunk of Code
+# Sample Chunks of Code
+
+## First Sample Chunk of Code
 
 ``` r
 # Print the traditional first line of code, but adapted slightly to match a Kate Bush song title!
@@ -93,6 +95,24 @@ print(powers)
 ```
 
     ## [1]    4   16   64  256 1024
+
+## Quote of the Day
+
+``` r
+# This quote changes every time you run/knit!
+statquote()
+```
+
+    ## 
+    ## It has been widely felt, probably for thirty years and more, that
+    ## significance tests are overemphasized and often misused and that more
+    ## emphasis should be put on estimation and prediction. While such a shift
+    ## of emphasis does seem to be occurring, for example in medical
+    ## statistics, the continued very extensive use of significance tests is
+    ## on the one hand alarming and on the other evidence that they are aimed,
+    ## even if imperfectly, at some widely felt need.
+    ## --- David R. Cox, Some general aspects of the theory of statistics.
+    ## 1986. International Statistical Review 54: 117-126.
 
 ------------------------------------------------------------------------
 
@@ -111,14 +131,11 @@ using Git and GitHub. Future edits were made in the next session.
 
   - This meant I had to re-install packages like `usethis` and
     `gitcreds`.
-
   - This also meant I had to create a new token for this new device.
-
     - I accidentally made a fine-grained token at first, which caused
       issues with Pull down the line - make sure to use Classic (even if
       you click the first option for Classic, there’s a second step you
       need to make sure you select correctly).
-
   - **Note that I’ll have to use a different token depending on whether
     I’m using my Windows vs Linux device.**
 
@@ -132,4 +149,11 @@ using Git and GitHub. Future edits were made in the next session.
 
 - Typing `renv::init()` in the Console is critical for ensuring things
   are reproducible and preservable across devices and their versions
-  (like packages).
+  (like packages). It scans the project to make sure it knows what’s
+  needed so that different devices can summon all that.
+
+  - `renv::status()` checks where you’re at.
+  - `renv::restore()` can essentially re-align your own local library to
+    the **renv.lock** file’s specification.
+  - `renv::snapshot()` can update the **renv.lock** file according to
+    added libraries.
