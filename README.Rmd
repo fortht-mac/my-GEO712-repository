@@ -1,7 +1,7 @@
 ---
 title: "My GEO712 Repository"
 author: "Tessa Forth"
-date: "2026-10-05"
+date: "2026-FallTerm"
 output: github_document
 ---
 
