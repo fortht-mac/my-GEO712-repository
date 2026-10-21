@@ -129,3 +129,7 @@ using Git and GitHub. Future edits were made in the next session.
   - To fix this, I set it to `output: github_document` (the same way the
     template README file auto-populates with), so that a .md file knits
     automatically.
+
+- Typing `renv::init()` in the Console is critical for ensuring things
+  are reproducible and preservable across devices and their versions
+  (like packages).

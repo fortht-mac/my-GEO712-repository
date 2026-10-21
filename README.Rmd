@@ -97,3 +97,5 @@ _Notes for my future self on how I created this:_
 - I copied the contents of my original **Forth-Activity-1** R Markdown file, but importantly, it set the output as a ```pdf_document```, so there was no corresponding .md. This gave issues when I tried to Commit.
 
   - To fix this, I set it to ```output: github_document``` (the same way the template README file auto-populates with), so that a .md file knits automatically.
+  
+- Typing ```renv::init()``` in the Console is critical for ensuring things are reproducible and preservable across devices and their versions (like packages).
