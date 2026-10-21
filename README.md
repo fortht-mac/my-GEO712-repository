@@ -7,42 +7,9 @@ Tessa Forth
 
 # Welcome to my GEO712 Repository!
 
-The goal of my-GEO712-repository is to practice using GItHub, [as part
-of my course: Reproducible Research
+The goal of my-GEO712-repository is to practice using GItHub, as part of
+my course: [Reproducible Research
 Workflow](https://github.com/paezha/Reproducible-Research-Workflow/).
-
-I created this respository as part of Activity 2, after Session 3 on
-using Git and GitHub.
-
-*Notes for my future self on how I created this:*
-
-- Generally, follow the **Activity** steps under [the Session
-  page](https://github.com/paezha/Reproducible-Research-Workflow/tree/master/Session-04-Git-and-GitHub).
-
-- I followed these steps using my Windows PC from Lab, rather than Linux
-  Laptop.
-
-  - This meant I had to re-install packages like `usethis` and
-    `gitcreds`.
-
-  - This also meant I had to create a new token for this new device.
-
-    - I accidentally made a fine-grained token at first, which caused
-      issues with Pull down the line - make sure to use Classic (even if
-      you click the first option for Classic, there’s a second step you
-      need to make sure you select correctly).
-
-- I copied the contents of my original **Forth-Activity-1** R Markdown
-  file, but importantly, it set the output as a `pdf_document`, so there
-  was no corresponding .md. This gave issues when I tried to Commit.
-
-  - To fix this, I set it to `output: github_document` (the same way the
-    template README file auto-populates with), so that a .md file knits
-    automatically.
-
-------------------------------------------------------------------------
-
-*Previous Activity’s contents below:*
 
 ------------------------------------------------------------------------
 
@@ -51,7 +18,7 @@ using Git and GitHub.
 ## Academic History
 
 - BA Environmental Studies: Lewis & Clark College (2026)
-- MSc Earth & Environmental Sciences: McMaster University (In PRogress)
+- MSc Earth & Environmental Sciences: McMaster University (In Progress)
 
 ## Main Research Interests
 
@@ -107,7 +74,9 @@ infrared reflectance, and *SWIR* is shortwave infrared reflectance.
 | Francisco Goya | Known for expressive and thought-provoking paintings such as “The Third of May 1808” and “Saturn Devouring His Son.” |
 | Pierre-Auguste Renoir | A French impressionist painter with works such as “Luncheon of the Boating Party” and “The Umbrellas.” |
 
-# A Chunk of Code
+------------------------------------------------------------------------
+
+# A Sample Chunk of Code
 
 ``` r
 # Print the traditional first line of code, but adapted slightly to match a Kate Bush song title!
@@ -124,3 +93,39 @@ print(powers)
 ```
 
     ## [1]    4   16   64  256 1024
+
+------------------------------------------------------------------------
+
+# Notes on Repository Setup
+
+I created this respository as part of Activity 2, after Session 3 on
+using Git and GitHub. Future edits were made in the next session.
+
+*Notes for my future self on how I created this:*
+
+- Generally, I followed the **Activity** steps under [the Session
+  page](https://github.com/paezha/Reproducible-Research-Workflow/tree/master/Session-04-Git-and-GitHub).
+
+- I followed these steps using my Windows PC from Lab, rather than Linux
+  Laptop.
+
+  - This meant I had to re-install packages like `usethis` and
+    `gitcreds`.
+
+  - This also meant I had to create a new token for this new device.
+
+    - I accidentally made a fine-grained token at first, which caused
+      issues with Pull down the line - make sure to use Classic (even if
+      you click the first option for Classic, there’s a second step you
+      need to make sure you select correctly).
+
+  - **Note that I’ll have to use a different token depending on whether
+    I’m using my Windows vs Linux device.**
+
+- I copied the contents of my original **Forth-Activity-1** R Markdown
+  file, but importantly, it set the output as a `pdf_document`, so there
+  was no corresponding .md. This gave issues when I tried to Commit.
+
+  - To fix this, I set it to `output: github_document` (the same way the
+    template README file auto-populates with), so that a .md file knits
+    automatically.
