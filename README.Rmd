@@ -12,7 +12,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ***
 
 # Welcome to my GEO712 Repository!
-I am creating this respository as part of Activity 2, after Session 3 on using Git and GitHub.
+
+The goal of my-GEO712-repository is to practice using GItHub, [as part of my course: Reproducible Research Workflow](https://github.com/paezha/Reproducible-Research-Workflow/).
+
+I created this respository as part of Activity 2, after Session 3 on using Git and GitHub.
 
 _Notes for my future self on how I created this:_
 
@@ -37,7 +40,13 @@ _Previous Activity's contents below:_
 
 ***
 
-# Main Research Interests
+# About Me
+
+## Academic History
+- BA Environmental Studies: Lewis & Clark College (2026)
+- MSc Earth & Environmental Sciences: McMaster University (In PRogress)
+
+## Main Research Interests
 My principal areas of interest include:
 
 - Tropical and coastal ecology
@@ -52,21 +61,21 @@ Specifically, I am recording aboveground biomass estimations from spaceborne LiD
 
 ***
 
-# Favorites
+## Favorites
 
-## Favorite Music
+### Favorite Music
 1. Spring Is Coming With A Strawberry In The Mouth: Roger Doyle & The Operating Theater
 2. Those Eyes, That Mouth: Cocteau Twins
 3. Hello Earth: Kate Bush
 4. The Predatory Wasp Of The Palisades Is Out To Get Us!: Sufjan Stevens
 5. Behind The Wheel: Depeche Mode
 
-## Favorite Equation
+### Favorite Equation
 _NDMI = (NIR-SWIR) / (NIR+SWIR)_
 
 Where _NDMI_ is the Normalized Difference Moisture Index, _NIR_ is near infrared reflectance, and _SWIR_ is shortwave infrared reflectance.
 
-## Favorite Artists
+### Favorite Artists
 Name | Achievements
 - | -
 John Nelson | A cartographer who makes beautiful maps and tutorials. My favorite is an animated map of the world's oceans using the unique Spilhaus projection.

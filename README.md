@@ -7,7 +7,11 @@ Tessa Forth
 
 # Welcome to my GEO712 Repository!
 
-I am creating this respository as part of Activity 2, after Session 3 on
+The goal of my-GEO712-repository is to practice using GItHub, [as part
+of my course: Reproducible Research
+Workflow](https://github.com/paezha/Reproducible-Research-Workflow/).
+
+I created this respository as part of Activity 2, after Session 3 on
 using Git and GitHub.
 
 *Notes for my future self on how I created this:*
@@ -42,7 +46,14 @@ using Git and GitHub.
 
 ------------------------------------------------------------------------
 
-# Main Research Interests
+# About Me
+
+## Academic History
+
+- BA Environmental Studies: Lewis & Clark College (2026)
+- MSc Earth & Environmental Sciences: McMaster University (In PRogress)
+
+## Main Research Interests
 
 My principal areas of interest include:
 
@@ -67,9 +78,9 @@ project.
 
 ------------------------------------------------------------------------
 
-# Favorites
+## Favorites
 
-## Favorite Music
+### Favorite Music
 
 1.  Spring Is Coming With A Strawberry In The Mouth: Roger Doyle & The
     Operating Theater
@@ -79,14 +90,14 @@ project.
     Stevens
 5.  Behind The Wheel: Depeche Mode
 
-## Favorite Equation
+### Favorite Equation
 
 *NDMI = (NIR-SWIR) / (NIR+SWIR)*
 
 Where *NDMI* is the Normalized Difference Moisture Index, *NIR* is near
 infrared reflectance, and *SWIR* is shortwave infrared reflectance.
 
-## Favorite Artists
+### Favorite Artists
 
 | Name | Achievements |
 |----|----|
