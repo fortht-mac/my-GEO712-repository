@@ -7,7 +7,7 @@ Fall 2026
 
 # Welcome to my GEO712 Repository!
 
-The goal of my-GEO712-repository is to practice using GItHub, as part of
+The goal of my-GEO712-repository is to practice using GitHub, as part of
 my course: [Reproducible Research
 Workflow](https://github.com/paezha/Reproducible-Research-Workflow/).
 
