@@ -13,6 +13,32 @@ Workflow](https://github.com/paezha/Reproducible-Research-Workflow/).
 
 ------------------------------------------------------------------------
 
+# Repository Structure
+
+- Folder: **Parent**
+  - Folder: **assets**
+    - Auxiliary images and data added as part of the assignment due
+      10/28.
+    - Initially populated with sample data/results figures from my
+      research on tropical forest biomass growth trajectories, using an
+      Ecoregion in Western Africa.
+  - Folder: **easter-egg**
+    - Created by Antonio as a contributor, including markdown and
+      results for generating Tanaka contours of Mount Fuji.
+  - Folder: **notes**
+    - Notes I keep for myself each assignment/class, organized with the
+      naming conventions: **AssignmentNotes_MM-DD** and
+      **ClassNotes_MM-DD** respectively.
+    - Folder: **Rmd_Files**
+      - Keeping the more “back-end” files separate for simple
+        navigation.
+  - Folder: **renv**
+    - Includes several setup files for a reproducible environment.
+  - Includes several setup files and the markdown files for the
+    “homepage” *README*.
+
+------------------------------------------------------------------------
+
 # About Me
 
 ## Academic History
@@ -104,56 +130,14 @@ statquote()
 ```
 
     ## 
-    ## It has been widely felt, probably for thirty years and more, that
-    ## significance tests are overemphasized and often misused and that more
-    ## emphasis should be put on estimation and prediction. While such a shift
-    ## of emphasis does seem to be occurring, for example in medical
-    ## statistics, the continued very extensive use of significance tests is
-    ## on the one hand alarming and on the other evidence that they are aimed,
-    ## even if imperfectly, at some widely felt need.
-    ## --- David R. Cox, Some general aspects of the theory of statistics.
-    ## 1986. International Statistical Review 54: 117-126.
+    ## [In statistics] you have the fact that the concepts are not very clean.
+    ## The idea of probability, of randomness, is not a clean mathematical
+    ## idea. You cannot produce random numbers mathematically. They can only
+    ## be produced by things like tossing dice or spinning a roulette wheel.
+    ## With a formula, any formula, the number you get would be predictable
+    ## and therefore not random. So as a statistician you have to rely on some
+    ## conception of a world where things happen in some way at random, a
+    ## conception which mathematicians don't have.
+    ## --- Lucien LeCam, Interview, 1988
 
 ------------------------------------------------------------------------
-
-# Notes on Repository Setup
-
-I created this respository as part of Activity 2, after Session 3 on
-using Git and GitHub. Future edits were made in the next session.
-
-*Notes for my future self on how I created this:*
-
-- Generally, I followed the **Activity** steps under [the Session
-  page](https://github.com/paezha/Reproducible-Research-Workflow/tree/master/Session-04-Git-and-GitHub).
-
-- I followed these steps using my Windows PC from Lab, rather than Linux
-  Laptop.
-
-  - This meant I had to re-install packages like `usethis` and
-    `gitcreds`.
-  - This also meant I had to create a new token for this new device.
-    - I accidentally made a fine-grained token at first, which caused
-      issues with Pull down the line - make sure to use Classic (even if
-      you click the first option for Classic, there’s a second step you
-      need to make sure you select correctly).
-  - **Note that I’ll have to use a different token depending on whether
-    I’m using my Windows vs Linux device.**
-
-- I copied the contents of my original **Forth-Activity-1** R Markdown
-  file, but importantly, it set the output as a `pdf_document`, so there
-  was no corresponding .md. This gave issues when I tried to Commit.
-
-  - To fix this, I set it to `output: github_document` (the same way the
-    template README file auto-populates with), so that a .md file knits
-    automatically.
-
-- Typing `renv::init()` in the Console is critical for ensuring things
-  are reproducible and preservable across devices and their versions
-  (like packages). It scans the project to make sure it knows what’s
-  needed so that different devices can summon all that.
-
-  - `renv::status()` checks where you’re at.
-  - `renv::restore()` can essentially re-align your own local library to
-    the **renv.lock** file’s specification.
-  - `renv::snapshot()` can update the **renv.lock** file according to
-    added libraries.
