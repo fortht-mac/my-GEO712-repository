@@ -1,0 +1,5 @@
+---
+title: "ClassNotes_10-21"
+output: html_document
+---
+
