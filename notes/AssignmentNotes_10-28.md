@@ -1,0 +1,25 @@
+Notes for the Assignment due October 28
+================
+
+Assignment details: at bottom of [Projects and Reproducible
+Environments](https://github.com/paezha/Reproducible-Research-Workflow/tree/master/Session-03-Projects-and-Reproducible-Environments)
+
+------------------------------------------------------------------------
+
+*Steps taken:*
+
+- Created a new local project/folder with versioning control via GitHub,
+  referencing the existing repository I created for the last assignment.
+- Installed packages `here`, `usethis`, and `annotater`.
+- Checked status with `renv::status()` –\> Several packages were out of
+  sync and the lockfile was created with R 4.3.3 on my Linux, but on
+  Windows I use R 4.6.1.
+  - Re-aligned local environment with `renv::restore()`
+  - Updated lockfile according to added libraries with
+    `renv::snapshot()` (installed some packages first as prompted)
+- I already set up a **README** file in the last assignment, including a
+  transfer of Activity 1’s contents.
+- Added new folders: **notes** and **assets**.
+  - Populated the folders with files accordingly.
+- Reorganized **README** (moving notes to separate locations) and added
+  a section explaining folder structure.

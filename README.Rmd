@@ -89,25 +89,3 @@ statquote()
 ```
 
 ***
-
-# Notes on Repository Setup
-
-I created this respository as part of Activity 2, after Session 3 on using Git and GitHub. Future edits were made in the next session.
-
-_Notes for my future self on how I created this:_
-
-- Generally, I followed the **Activity** steps under [the Session page](https://github.com/paezha/Reproducible-Research-Workflow/tree/master/Session-04-Git-and-GitHub).
-
-- I followed these steps using my Windows PC from Lab, rather than Linux Laptop.
-  - This meant I had to re-install packages like ```usethis``` and ```gitcreds```.
-  - This also meant I had to create a new token for this new device.
-    - I accidentally made a fine-grained token at first, which caused issues with Pull down the line - make sure to use Classic (even if you click the first option for Classic, there's a second step you need to make sure you select correctly).
-  - **Note that I'll have to use a different token depending on whether I'm using my Windows vs Linux device.**
-    
-- I copied the contents of my original **Forth-Activity-1** R Markdown file, but importantly, it set the output as a ```pdf_document```, so there was no corresponding .md. This gave issues when I tried to Commit.
-  - To fix this, I set it to ```output: github_document``` (the same way the template README file auto-populates with), so that a .md file knits automatically.
-  
-- Typing ```renv::init()``` in the Console is critical for ensuring things are reproducible and preservable across devices and their versions (like packages). It scans the project to make sure it knows what's needed so that different devices can summon all that.
-  - ```renv::status()``` checks where you're at.
-  - ```renv::restore()``` can essentially re-align your own local library to the **renv.lock** file's specification.
-  - ```renv::snapshot()``` can update the **renv.lock** file according to added libraries.
