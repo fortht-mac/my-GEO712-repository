@@ -16,26 +16,26 @@ Workflow](https://github.com/paezha/Reproducible-Research-Workflow/).
 # Repository Structure
 
 - Folder: **Parent**
+  - *Includes several setup files and the markdown files for the
+    “homepage” *README*.*
   - Folder: **assets**
-    - Auxiliary images and data added as part of the assignment due
-      10/28.
-    - Initially populated with sample data/results figures from my
+    - *Auxiliary images and data added as part of the assignment due
+      10/28.*
+    - *Initially populated with sample data/results figures from my
       research on tropical forest biomass growth trajectories, using an
-      Ecoregion in Western Africa.
+      Ecoregion in Western Africa.*
   - Folder: **easter-egg**
-    - Created by Antonio as a contributor, including markdown and
-      results for generating Tanaka contours of Mount Fuji.
+    - *Created by Antonio as a contributor, including markdown and
+      results for generating Tanaka contours of Mount Fuji.*
   - Folder: **notes**
-    - Notes I keep for myself each assignment/class, organized with the
+    - *Notes I keep for myself each assignment/class, organized with the
       naming conventions: **AssignmentNotes_MM-DD** and
-      **ClassNotes_MM-DD** respectively.
+      **ClassNotes_MM-DD** respectively.*
     - Folder: **Rmd_Files**
-      - Keeping the more “back-end” files separate for simple
-        navigation.
+      - *Keeping the more “back-end” files separate for simple
+        navigation.*
   - Folder: **renv**
-    - Includes several setup files for a reproducible environment.
-  - Includes several setup files and the markdown files for the
-    “homepage” *README*.
+    - *Includes several setup files for a reproducible environment.*
 
 ------------------------------------------------------------------------
 
@@ -130,14 +130,9 @@ statquote()
 ```
 
     ## 
-    ## [In statistics] you have the fact that the concepts are not very clean.
-    ## The idea of probability, of randomness, is not a clean mathematical
-    ## idea. You cannot produce random numbers mathematically. They can only
-    ## be produced by things like tossing dice or spinning a roulette wheel.
-    ## With a formula, any formula, the number you get would be predictable
-    ## and therefore not random. So as a statistician you have to rely on some
-    ## conception of a world where things happen in some way at random, a
-    ## conception which mathematicians don't have.
-    ## --- Lucien LeCam, Interview, 1988
+    ## Science is built up of facts, as a house is with stones. But a
+    ## collection of facts is no more a science than a heap of stones is a
+    ## house.
+    ## --- Henri Poincare
 
 ------------------------------------------------------------------------

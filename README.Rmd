@@ -20,18 +20,18 @@ The goal of this repository is to practice using GitHub, as part of my course: [
 # Repository Structure
 
 - Folder: **Parent**
+  - _Includes several setup files and the markdown files for the "homepage" *README*._
   - Folder: **assets**
-    - Auxiliary images and data added as part of the assignment due 10/28.
-    - Initially populated with sample data/results figures from my research on tropical forest biomass growth trajectories, using an Ecoregion in Western Africa.
+    - _Auxiliary images and data added as part of the assignment due 10/28._
+    - _Initially populated with sample data/results figures from my research on tropical forest biomass growth trajectories, using an Ecoregion in Western Africa._
   - Folder: **easter-egg**
-    - Created by Antonio as a contributor, including markdown and results for generating Tanaka contours of Mount Fuji.
+    - _Created by Antonio as a contributor, including markdown and results for generating Tanaka contours of Mount Fuji._
   - Folder: **notes**
-    - Notes I keep for myself each assignment/class, organized with the naming conventions: **AssignmentNotes_MM-DD** and **ClassNotes_MM-DD** respectively.
+    - _Notes I keep for myself each assignment/class, organized with the naming conventions: **AssignmentNotes_MM-DD** and **ClassNotes_MM-DD** respectively._
     - Folder: **Rmd_Files**
-      - Keeping the more "back-end" files separate for simple navigation.
+      - _Keeping the more "back-end" files separate for simple navigation._
   - Folder: **renv**
-    - Includes several setup files for a reproducible environment.
-  - Includes several setup files and the markdown files for the "homepage" *README*. 
+    - _Includes several setup files for a reproducible environment._
 
 ***
 
