@@ -71,6 +71,13 @@ project.
 
 ------------------------------------------------------------------------
 
+## Ecoregions
+
+Here is a cool statistical of an ecoregion.
+<img src="assets/Ecoregion_030_BiomassByAge.png" alt="" width="1176" />
+
+------------------------------------------------------------------------
+
 ## Favorites
 
 ### Favorite Music
@@ -130,9 +137,7 @@ statquote()
 ```
 
     ## 
-    ## Science is built up of facts, as a house is with stones. But a
-    ## collection of facts is no more a science than a heap of stones is a
-    ## house.
-    ## --- Henri Poincare
+    ## The future ain't what it used to be
+    ## --- Yogi Berra
 
 ------------------------------------------------------------------------

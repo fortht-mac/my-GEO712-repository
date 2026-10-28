@@ -56,6 +56,15 @@ Specifically, I am recording aboveground biomass estimations from spaceborne LiD
 
 ***
 
+## Ecoregions
+
+Here is a cool statistical of an ecoregion.
+```{r echo=FALSE}
+knitr::include_graphics(paste0(here::here(), "/assets/Ecoregion_030_BiomassByAge.png"))
+```
+
+***
+
 ## Favorites
 
 ### Favorite Music
