@@ -39,8 +39,8 @@ currently using are as follows:
   - BIOPAMA Global Oil Palm
   - Global Pasture Watch
 - **Forest Age**
-  - Hansen/GLAD Global Forest Change (deriving Years-Post-Loss) -JRC
-    Topical Moist Forests Annual Change Collection (deriving
+  - Hansen/GLAD Global Forest Change (deriving Years-Post-Loss)
+  - JRC Topical Moist Forests Annual Change Collection (deriving
     Years-Of-Regrowth)
 - **Aboveground Biomass**
   - NASA’s GEDI instrument (spaceborne LiDAR waveforms that measure 3D
@@ -136,4 +136,4 @@ strategies!).
 I definitely make sure to save raw files, just in case, and I also
 create Archive folders for older materials that I don’t anticipate using
 anymore, but am frankly too scared to permanently delete (my future self
-could thank me!).
+could thank me, though!).
