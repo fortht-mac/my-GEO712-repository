@@ -32,6 +32,8 @@ The goal of this repository is to practice using GitHub, as part of my course: [
       - _Keeping the more "back-end" files separate for simple navigation._
   - Folder: **renv**
     - _Includes several setup files for a reproducible environment._
+  - Folder: **researchproject**
+    - _Documentation and ideas for my thesis research project._
 
 ***
 
@@ -53,15 +55,6 @@ My principal areas of interest include:
 At McMaster, I work with Dr. Alemu Gonsamo's _Remote Sensing Lab._ My research here centers on **how tropical forests recover their biomass following stand-replacing disturbances.** My approach uses _space-for-time substitution,_ which means I quantify biomass from one recent year, but across forests that were disturbed in different years. That way, I can find a relationship between forest age and biomass, essentially finding the rate of recovery over time.
 
 Specifically, I am recording aboveground biomass estimations from spaceborne LiDAR data, made available by the _GEDI L4A_ product, and relating this to forest loss data from the _Global Forest Change_ project.
-
-***
-
-## Ecoregions
-
-Here is a cool statistical of an ecoregion.
-```{r echo=FALSE}
-knitr::include_graphics(paste0(here::here(), "/assets/Ecoregion_030_BiomassByAge.png"))
-```
 
 ***
 

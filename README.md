@@ -36,6 +36,8 @@ Workflow](https://github.com/paezha/Reproducible-Research-Workflow/).
         navigation.*
   - Folder: **renv**
     - *Includes several setup files for a reproducible environment.*
+  - Folder: **researchproject**
+    - *Documentation and ideas for my thesis research project.*
 
 ------------------------------------------------------------------------
 
@@ -68,13 +70,6 @@ Specifically, I am recording aboveground biomass estimations from
 spaceborne LiDAR data, made available by the *GEDI L4A* product, and
 relating this to forest loss data from the *Global Forest Change*
 project.
-
-------------------------------------------------------------------------
-
-## Ecoregions
-
-Here is a cool statistical of an ecoregion.
-<img src="assets/Ecoregion_030_BiomassByAge.png" alt="" width="1176" />
 
 ------------------------------------------------------------------------
 
@@ -137,7 +132,14 @@ statquote()
 ```
 
     ## 
-    ## The future ain't what it used to be
-    ## --- Yogi Berra
+    ## I argued that hypothesis testing is fundamentally inappropriate for
+    ## ecological risk assessment, that its use has undesirable consequences
+    ## for environmental protection, and that preferable alternatives exist
+    ## for statistical analysis of data in ecological risk assessment. The
+    ## conclusion of this paper is that ecological risk assessors should
+    ## estimate risks rather than test hypothesis
+    ## --- Glenn W. Suter, Abuse of hypothesis testing statistics in
+    ## ecological risk assessment, 1996. Human and Ecological Risk Assessment
+    ## 2: 331-347.
 
 ------------------------------------------------------------------------

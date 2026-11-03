@@ -1,0 +1,139 @@
+Project Data Analysis
+================
+Tessa Forth,
+Fall 2026
+
+> Note: this document was created as part of the activity for [Research
+> Data Management
+> Principles](https://github.com/paezha/Reproducible-Research-Workflow/tree/master/Session-05-Research-Data-Management-Principles),
+> due 11/4/2026.
+
+------------------------------------------------------------------------
+
+## Evaluating the variability of tropical forest biomass recovery through a space-for-time synthesis of remote sensing datasets
+
+------------------------------------------------------------------------
+
+## Datasets
+
+My project hinges on gathering existing remote sensing datasets that are
+openly available on cloud-based platforms. While a singular remote
+sensing dataset will always incur its own limitations (ie spatial
+resolution, temporal scope, uncertainty, etc.), synthesizing several
+sources can combine their complementary strengths.
+
+I am breaking up my datasets into several broader grouping categories:
+forest classifications, anthropogenic influence (to remove from my
+analysis), forest age, and aboveground biomass. The datasets I am
+currently using are as follows:
+
+- **Forest Classifications**
+  - IPCC Tier 1 Global Forest Classification
+  - EC JRC Global Forest Classes Subtypes
+  - JRC Undisturbed Tropical Moist Forests
+  - GLAD Intact Forest Landscapes
+  - GLAD Land Cover/Land Use Change
+- **Anthropogenic Influence**
+  - EC JRC Global Forest Classes Subtypes: Planted
+  - GLAD Annual Cropland Dynamics
+  - BIOPAMA Global Oil Palm
+  - Global Pasture Watch
+- **Forest Age**
+  - Hansen/GLAD Global Forest Change (deriving Years-Post-Loss) -JRC
+    Topical Moist Forests Annual Change Collection (deriving
+    Years-Of-Regrowth)
+- **Aboveground Biomass**
+  - NASA’s GEDI instrument (spaceborne LiDAR waveforms that measure 3D
+    forest structure)
+  - Climate Change Initiative’s global 100-m Aboveground Biomass product
+
+------------------------------------------------------------------------
+
+## Legal/Ethical Restrictions
+
+There are no major legal or ethical restrictions that I have confronted
+thus far, as I am looking at freely accessible data only and am aiming
+for globally inclusive coverage. Down the line, I’ll look more deeply
+into potential global forestry policy implications.
+
+------------------------------------------------------------------------
+
+## Strategies for Data Management
+
+### Storing/Backing Up Raw Data
+
+The raw-est form of data that I use is stored online in the cloud, via
+Google Earth Engine. I do some pre-processing to access the data points
+I’m analyzing via a script on Google Earth Engine, and I include some
+data on the amount of points I’ve filtered in my exports.
+
+From there, I store preliminary results as tables in a backed-up Google
+Drive folder, with explicit results for different areas of interest
+(ecoregions) and units of analysis (recovering vs primary forests).
+
+Afterwards, I run a post-processing and analytical script on Google
+Colab, which includes a line at the top to access the raw exports from
+Drive, then create a separately copied dataframe to run further
+filtering and processing on, without modifying the original exports.
+
+### File Formats
+
+I export my data from Google Earth Engine as Comma Separated Values
+files (.csv), which is an open format. Down the line, I will integrate
+these with shapefiles for GIS analysis - there are some GIS file formats
+that are “better suited” to Esri platforms like ArcGIS (e.g. Esri Cloud
+Raster Format), so I’ll have to prioritize more open formats if I run
+into those. For now, I don’t foresee that being an issue.
+
+### File Naming Conventions
+
+For Google Earth Engine Scripts:
+
+- Thesis_MMYY_Description \> StepNumber_Data_AnalysisType
+- E.g. my current “main scripts” are:
+  - Thesis_EcoregionExports \> 1_PrimaryForests
+  - Thesis_EcoregionExports \> 2_GFC_YearsPostLoss
+  - Thesis_EcoregionExports \> 3_TMF_YearsOfRegrowth
+
+For Google Earth Engine Exports:
+
+- Ecoregion_XXX_PrimaryForests.csv
+- Ecoregion_XXX_GFCYearsPostLoss.csv
+- Ecoregion_XXX_TMFYearsOfRegrowth.csv
+
+### Relevant Standards / Best Practices
+
+- Automation and efficiency of code, especially when using the
+  cloud-based, web platform of Google Earth Engine.
+- Clean, consistent naming conventions that contain no spaces or special
+  characters throughout the entire file path (especially important for
+  running GIS processing tools).
+- Each of the ecoregions I am assessing has a unique ID number. I make
+  sure that they all have 3 digits for consistency/ordering, including
+  leading zeroes where necessary (e.g. Ecoregion 4 becomes Ecoregion
+  004).
+
+### Documentation Strategies
+
+I like to be very meticulous with my data/workflow documentation, for
+personal accountability and to help my future self remember.
+
+I have weekly meetings with my advisor, for which I like to prepare
+detailed slideshows that visually display my data. I start by listing my
+current progress/status, showcasing ongoing results and issues, then
+closing with next steps and questions.
+
+As I code, my favourite part is adding very detailed comments and
+continually pruning the structure for readability. Especially as someone
+learning by doing, I like to hold myself to a standard wherein anyone
+could read through a script and understand what it’s doing, whether it’s
+by the sections I break things up into, or
+section-by-section/line-by-line comments that explain what is explicitly
+being done. I also make sure to keep records of all my old code and data
+outputs/exports (this course is helping revolutionize my versioning
+strategies!).
+
+I definitely make sure to save raw files, just in case, and I also
+create Archive folders for older materials that I don’t anticipate using
+anymore, but am frankly too scared to permanently delete (my future self
+could thank me!).
