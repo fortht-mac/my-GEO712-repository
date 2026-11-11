@@ -1,0 +1,12 @@
+Class Notes: November 11
+================
+
+Today’s session: [Documenting data analysis using R
+Markdown](https://github.com/paezha/Reproducible-Research-Workflow/tree/master/Session-08-Documenting-Data-Analysis-with-RMarkdown)
+
+------------------------------------------------------------------------
+
+### Vignettes
+
+- Appear as Articles in the actual package webpage
+- Show up as a user’s guide/instructional materials as you’re sharing

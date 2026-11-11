@@ -28,8 +28,6 @@ The goal of this repository is to practice using GitHub, as part of my course: [
     - _Created by Antonio as a contributor, including markdown and results for generating Tanaka contours of Mount Fuji._
   - Folder: **notes**
     - _Notes I keep for myself each assignment/class, organized with the naming conventions: **AssignmentNotes_MM-DD** and **ClassNotes_MM-DD** respectively._
-    - Folder: **Rmd_Files**
-      - _Keeping the more "back-end" files separate for simple navigation._
   - Folder: **renv**
     - _Includes several setup files for a reproducible environment._
   - Folder: **researchproject**
